@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+.active {
+  @apply text-accent font-bold lg:border-b-3;
+}
+
+li {
+  @apply hover:border-b-2 transition duration-300 hover:scale-110 hover:font-bold
+}
